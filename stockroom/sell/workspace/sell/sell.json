@@ -1,0 +1,18 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Sell</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sell\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Order\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Invoice\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Payments</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Receive Payment\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Setup</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":4}}]",
+ "doctype": "Workspace",
+ "icon": "sell",
+ "label": "Sell",
+ "module": "Sell",
+ "name": "Sell",
+ "public": 1,
+ "shortcuts": [
+  {"color": "Blue", "doc_view": "New", "label": "Sell", "link_to": "Stock Transaction", "type": "DocType"},
+  {"color": "Blue", "doc_view": "List", "label": "Sales Order", "link_to": "Sales Order", "type": "DocType"},
+  {"color": "Green", "doc_view": "List", "label": "Sales Invoice", "link_to": "Sales Invoice", "type": "DocType"},
+  {"color": "Purple", "doc_view": "New", "label": "Receive Payment", "link_to": "Payment Entry", "type": "DocType"},
+  {"color": "Grey", "doc_view": "List", "label": "Customer", "link_to": "Customer", "type": "DocType"}
+ ],
+ "title": "Sell"
+}

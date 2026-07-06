@@ -1,0 +1,36 @@
+/* Stockrooms operations mode — content-first forms (Browser-inspired) */
+
+body.stockroom-ops-mode .stockroom-ops-form-page .form-sidebar,
+body.stockroom-ops-mode .stockroom-ops-form-page .layout-footer,
+body.stockroom-ops-mode .stockroom-ops-form-page .form-footer,
+body.stockroom-ops-mode .stockroom-ops-form-page .form-dashboard {
+	display: none !important;
+}
+
+body.stockroom-ops-mode .stockroom-ops-form-page .layout-main-section-wrapper {
+	flex: 1 1 100%;
+	max-width: 100%;
+}
+
+body.stockroom-ops-mode .stockroom-ops-form-page .form-page .form-section.card-section {
+	margin-bottom: 0.75rem;
+}
+
+/* Payment difference feedback */
+.stockroom-payment-diff--ok {
+	color: var(--text-muted);
+}
+.stockroom-payment-diff--warn {
+	color: var(--orange-500);
+	font-weight: 600;
+}
+.stockroom-payment-diff--error {
+	color: var(--red-500);
+	font-weight: 600;
+}
+
+.stockroom-payment-hint {
+	color: var(--text-muted);
+	font-size: var(--text-sm);
+	margin: 0.25rem 0 0.75rem;
+}

@@ -8,7 +8,7 @@ app_license = "mit"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["frappe", "manager"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -25,8 +25,12 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/stockroom/css/stockroom.css"
-# app_include_js = "/assets/stockroom/js/stockroom.js"
+app_include_js = [
+	"/assets/stockroom/js/stockroom_form.js",
+	"/assets/stockroom/js/stock_quick_actions.js",
+	"/assets/stockroom/js/stockroom_desk.js",
+]
+app_include_css = "/assets/stockroom/css/stockroom_desk.css"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/stockroom/css/stockroom.css"
@@ -86,7 +90,9 @@ app_license = "mit"
 # ------------
 
 # before_install = "stockroom.install.before_install"
-# after_install = "stockroom.install.after_install"
+after_install = "stockroom.setup.install.after_install"
+
+boot_session = "stockroom.boot.boot_session"
 
 # Uninstallation
 # ------------

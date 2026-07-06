@@ -1,1 +1,4 @@
 Stockroom
+Stock
+Buy
+Sell

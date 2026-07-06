@@ -1,0 +1,18 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Buy</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Receive Stock\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Order\",\"col\":4}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Purchase Invoice\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Payments</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pay Supplier\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Setup</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier\",\"col\":4}}]",
+ "doctype": "Workspace",
+ "icon": "buy",
+ "label": "Buy",
+ "module": "Buy",
+ "name": "Buy",
+ "public": 1,
+ "shortcuts": [
+  {"color": "Green", "doc_view": "New", "label": "Receive Stock", "link_to": "Stock Transaction", "type": "DocType"},
+  {"color": "Blue", "doc_view": "List", "label": "Purchase Order", "link_to": "Purchase Order", "type": "DocType"},
+  {"color": "Orange", "doc_view": "List", "label": "Purchase Invoice", "link_to": "Purchase Invoice", "type": "DocType"},
+  {"color": "Purple", "doc_view": "New", "label": "Pay Supplier", "link_to": "Payment Entry", "type": "DocType"},
+  {"color": "Grey", "doc_view": "List", "label": "Supplier", "link_to": "Supplier", "type": "DocType"}
+ ],
+ "title": "Buy"
+}
